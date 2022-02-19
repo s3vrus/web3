@@ -1,7 +1,7 @@
 import * as React from "react";
 import '../styles/styles.scss';
 import { TransactionContext } from '../context/TransactionContext';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import {FaEthereum} from 'react-icons/fa';
 // import {MdOutlineAccountBalanceWallet} from 'react-icons/md';
@@ -31,10 +31,10 @@ const Header = () => {
       <nav className="navbar">
         <div className="wrapper">
           <div className="nav-header">
-              <Link to="/" className="nav-logo">
+              <div className="nav-logo">
                 <FaEthereum className='icon' />
                 NFT Collection Info
-              </Link>
+              </div>
 
             <ul className="nav-links">
               {/* <li className="nav-link">Option 1</li>
